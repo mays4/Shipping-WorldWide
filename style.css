@@ -1,0 +1,474 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #F5F5F5;
+  
+ 
+  
+
+}
+
+.app {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+nav {
+  background-color: #173F5F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 4rem;
+  padding-top: 0;
+ 
+}
+
+.title {
+  color: #F6D55C;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38.7px;
+
+}
+
+.inside {
+  display: flex;
+  margin-top: 10px;
+  justify-content: flex-end;
+  /* justify-content: center; */
+  /* justify-content:space-between; */
+  /* margin-right: 80px; */
+}
+
+.logo {
+  width: 24rem;
+  height: 93px;
+  border: 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  background-color: transparent;
+  /* margin-left: 40rem; */
+
+
+}
+.badge{
+  color: #3CAEA3;
+margin-top: 18px;
+  width: 39.2px;
+  height: 29.2px;
+  margin-right: 3rem;
+}
+
+.badge:after {
+  content: attr(value);
+  font-size: 20px;
+  color: #fff;
+  background: #ed553B;
+  border-radius: 50%;
+  padding: 0 5px;
+  position: relative;
+  left: -6px;
+  top: -8px;
+  opacity: 0.9;
+}
+
+
+.inside-input {
+  display: flex;
+  
+}
+.search{
+  display: flex;
+  margin-left: 20rem;
+  margin-top: 1rem;
+/* padding-left: 500px; */
+}
+
+.inline {
+  max-width: 25rem;
+ 
+
+}
+
+.input-icons i {
+  position: absolute;
+  right:6%;
+  color:#3CAEA3;
+  padding-top: 1rem ;
+  width: 3rem;
+  height: 3rem;
+  
+
+}
+
+.input-icons {
+ 
+  /* margin-bottom: 2rem; */
+  margin-right: 3rem;
+  
+}
+
+
+
+.input-field {
+  width: 24rem;
+  height: 54px;
+  /* padding:2rem; */
+  justify-content: right;
+  text-align: left;
+  padding-left: 10px;
+
+
+}
+
+.card {
+  width: 100%;
+   display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+    justify-items: center;
+    gap: 2em;
+    margin: 2em;
+
+  background-color: #F5F5F5;
+
+}
+
+.inside-card {
+
+  background-color: #F5F5F5;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 27px 30px;
+
+
+
+}
+
+.inside-inside-card {
+ 
+  width: 260px;
+  height: 260px;
+  align-items: center;
+}
+
+.cir {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  margin-left: 13rem;
+  padding-top: 0.8rem;
+  padding-left: 0.25rem;
+  z-index: 1;
+  background-color: #ed553B;
+  align-items: center;
+  justify-content: center;
+  color: #F6D55C;
+  display: block;
+  position: absolute;
+}
+
+img {
+  width: 260px;
+  height: 260px;
+
+}
+
+.product {
+  margin-top : 1.06rem;
+  margin-bottom : 1.06rem;
+
+}
+
+.price {
+  display: flex;
+  margin-bottom : 1.06rem;
+
+}
+
+.Overline {
+  text-decoration: line-through;
+  width: 130px;
+}
+
+.select-outside {
+
+  height: 54px;
+}
+
+.select-inside {
+  width: 16rem;
+  font-size: 24px;
+
+}
+
+
+
+.inside-button {
+
+  width:16rem;
+  height: 54px;
+  padding-right: 8px;
+  background-color: #F6D55C;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.2px;
+
+}
+
+
+main {
+  display: flex;
+
+margin-left:2rem;
+
+}
+
+.side-bar {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.filter-button {
+
+  width: 15rem;
+  height: 63px;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 16px 61px 17px 60px;
+  background-color: #3CAEA3;
+  margin-bottom: 58px;
+}
+
+.color-button {
+  width: 15rem;
+  height: 3.9rem;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 16px 61px 17px 60px;
+  background-color: #20639B;
+  margin-bottom: 58px;
+  color: #F6D55C;
+}
+
+ input[name='Tometo']{
+  accent-color: #FF6347;
+
+ 
+ 
+}
+
+input[name='blue']{
+  accent-color:#0000FF;
+
+} 
+input[name='Grey']{
+  accent-color:#D9D9D9
+  ;
+
+ 
+
+} 
+input[name='White']{
+  accent-color:#FFFFFF;
+ 
+
+
+
+} 
+input[type='radio']{
+  -ms-transform: scale(2); /* IE 9 */
+  -webkit-transform: scale(2); /* Chrome, Safari, Opera */
+  transform: scale(2);
+  margin-right: 17px;
+
+}
+ 
+label{
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.5px;
+
+}
+.button-color-option{
+  display: flex;
+  flex-direction: column;
+}
+.sort{
+  display: none;
+}
+.filter{
+  display: flex;
+
+}
+.products{
+  justify-content: center;
+
+  margin-left:24rem;
+ 
+}
+@media only screen and (max-width: 1200px) {
+  .search{
+    margin: 0;
+    padding-top: 1.2rem;
+  
+  }
+  .input-icons{
+    margin: 0;
+    padding-right: 20px;
+  }
+  .input-icons i {
+   right: 10%;
+  }
+  .inside{
+   margin: 0;
+    justify-content: flex-end;
+    /* margin-top: 16px; */
+    /* margin-left: -0.5rem; */
+    /* justify-content: center; */
+    
+    /* align-items: center; */
+  }
+  
+
+}
+
+
+@media only screen and (max-width: 800px) {
+
+.card{
+  margin-top: 1.3rem;
+  grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
+  justify-content: center;
+
+}
+
+.inside-card{
+  display: flex;
+  flex-direction: row;
+  height: 170px;
+}
+.inside-inside-card {
+  width: 130px;
+  height: 130px;
+  margin-right: 17px;
+}
+img {
+  width: 8rem;
+  height: 8rem;
+
+}
+main{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+
+
+.button-color-option{
+  display: none;
+}
+
+.input-field{
+  display: none;
+}
+.title{
+  font-size: 24px;
+
+}
+.filter-button{
+  width: 168px;
+  height: 44px;
+  font-size: 14px;
+  line-height: 16.94px;
+  padding: 0;
+}
+.select-outside{
+  height: 3rem;
+}
+.products{
+  margin-left: 13rem;
+  margin-bottom: 2rem;
+ 
+}
+.sort{
+  display: flex;
+  width: 175px;
+  height: 44px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  border: 1px;
+ margin-right: 26px;
+ line-height: 16.94px;
+  background-color: #fff;
+
+}
+.search{
+  margin: 0;
+  padding-top: 1.2rem;
+  /* padding-top: 10px; */
+}
+.input-icons{
+  margin: 0;
+}
+.inside{
+ margin: 0;
+  justify-content: flex-end;
+  /* margin-top: 16px; */
+  /* margin-left: -0.5rem; */
+  /* justify-content: center; */
+  
+  /* align-items: center; */
+}
+
+
+.select-inside {
+  width: 190px;
+  height: 29px;
+
+}
+
+.inside-button{
+  width: 190px;
+  height: 29px;
+  font-size: 16px;
+  line-height: 19.36px;
+  margin-bottom: 8px;
+  
+}
+.input-icons i{
+  position: relative;
+  right: 0;
+}
+.product{
+  margin-top: 4px;
+  margin-bottom: 8px;
+}
+.price{
+  margin-bottom: 8px;
+}
+  .title {
+    font-size: 14px;
+    line-height: 16.96px;
+}
+.cir {
+  margin-left: 5rem;
+
+}
+
+}
