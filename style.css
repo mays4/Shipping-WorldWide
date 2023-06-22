@@ -319,31 +319,7 @@ label{
   margin-left:24rem;
  
 }
-@media only screen and (max-width: 1200px) {
-  .search{
-    margin: 0;
-    padding-top: 1.2rem;
-  
-  }
-  .input-icons{
-    margin: 0;
-    padding-right: 20px;
-  }
-  .input-icons i {
-   right: 10%;
-  }
-  .inside{
-   margin: 0;
-    justify-content: flex-end;
-    /* margin-top: 16px; */
-    /* margin-left: -0.5rem; */
-    /* justify-content: center; */
-    
-    /* align-items: center; */
-  }
-  
 
-}
 
 
 @media only screen and (max-width: 800px) {
@@ -470,5 +446,30 @@ main{
   margin-left: 5rem;
 
 }
+
+}
+@media only screen and (max-width: 1600px) {
+  .search{
+    margin: 0;
+    padding-top: 1.2rem;
+  
+  }
+  .input-icons{
+    margin: 0;
+    padding-right: 20px;
+  }
+  .input-icons i {
+   right: 9%;
+  }
+  .inside{
+   margin: 0;
+    justify-content: flex-end;
+    /* margin-top: 16px; */
+    /* margin-left: -0.5rem; */
+    /* justify-content: center; */
+    
+    /* align-items: center; */
+  }
+  
 
 }
