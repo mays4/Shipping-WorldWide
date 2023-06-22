@@ -1,4 +1,5 @@
 # Shipping-WorldWide
 
 ##Friday Challenge 
-Build with React, HTML, CSS
+#### Build with React, HTML, 
+#### styled with CSS
